@@ -1,34 +1,4 @@
-.menu{
-  display: flex;
-}
-.instrument {
-  display: flex;
-  flex-direction: column;
-}
-.instrument .header{
-  display: flex;
-  flex-direction: row;
-}
-.name{
-  flex: 2;
-
-}
-.notes{
-  display: flex;
-  margin: 4px;
-  padding: 0px;
-  border: 2px solid green;
-  box-shadow: 1px 1px 2px #dddddd;
-  flex-direction:column;
-}
-.notes:before{
-  content: "Notes";
-  font-weight: bold;
-  background: #00AA00;
-  color: #DDFFDD;
-}
-
-.note, .notes:before{
-  flex: 1;
-  padding: 0.5em;
+h1 {
+    color: blue;
+    text-align: center;
 }
