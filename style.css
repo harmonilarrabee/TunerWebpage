@@ -21,7 +21,7 @@ p {
 .instrument .image {
 	display: block;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 .instrument .image #sideways{
 	-webkit-transform: rotate(90deg);
@@ -31,4 +31,10 @@ p {
 }
 .all {
 	column-count: 3;
+}
+a {
+	color: lightslategray;
+    font-family: verdana;
+    font-size: 150%;
+    text-align: center;
 }
