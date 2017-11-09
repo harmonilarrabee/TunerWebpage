@@ -1,0 +1,34 @@
+body {
+    background-color: ghostwhite;
+}
+h1 {
+    color: dimgray;
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+}
+p {
+    color: lightslategray;
+    font-family: verdana;
+    font-size: 100%;
+    text-align: center;
+}
+.instrument .header {
+	color: dimgray;
+	font-family: veranda;
+	font-size: 200%;
+}
+.instrument .image {
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.instrument .image #sideways{
+	-webkit-transform: rotate(90deg);
+}
+.instrument .image #upsideDown{
+	-webkit-transform: rotate(180deg);
+}
+.all {
+	column-count: 3;
+}
