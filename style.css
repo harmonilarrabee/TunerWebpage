@@ -29,12 +29,46 @@ p {
 .instrument .image #upsideDown{
 	-webkit-transform: rotate(180deg);
 }
-.all {
+.instruments {
 	column-count: 3;
 }
-a {
-	color: lightslategray;
+img {
+	display: block;
+    margin: 0 auto;
+}
+#sideways {
+	-webkit-transform: rotate(90deg);
+}
+#upsideDown {
+	-webkit-transform: rotate(180deg);
+}
+.sixNotes {
+	color: dodgerblue;
+    font-family: verdana;
+    font-size: 500%;
+    text-align: center;
+	column-count: 6;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.fourNotes {
+	color: dodgerblue;
+    font-family: verdana;
+    font-size: 500%;
+    text-align: center;
+	column-count: 4;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#homeButton {
+	color: dimgray;
     font-family: verdana;
     font-size: 150%;
     text-align: center;
+    display: block;
+    margin: 0 auto;
 }
