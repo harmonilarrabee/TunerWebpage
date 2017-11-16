@@ -21,7 +21,7 @@ p {
 .instrument .image {
 	display: block;
     margin: 0 auto;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 .instrument .image #sideways{
 	-webkit-transform: rotate(90deg);
@@ -38,6 +38,7 @@ img {
 }
 #sideways {
 	-webkit-transform: rotate(90deg);
+	overflow: hidden;
 }
 #upsideDown {
 	-webkit-transform: rotate(180deg);
@@ -71,4 +72,31 @@ img {
     text-align: center;
     display: block;
     margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 525px;
+    margin-right: 525px;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: dimgray;
+    color: ghostwhite;
+    font-family: veranda;
+    font-size: 200%;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: gray;
 }
