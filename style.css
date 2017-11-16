@@ -1,5 +1,5 @@
 body {
-    background-color: ghostwhite;
+    background-color: white;
 }
 h1 {
     color: dimgray;
@@ -23,9 +23,6 @@ p {
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.instrument .image #sideways{
-	-webkit-transform: rotate(90deg);
-}
 .instrument .image #upsideDown{
 	-webkit-transform: rotate(180deg);
 }
@@ -35,10 +32,6 @@ p {
 img {
 	display: block;
     margin: 0 auto;
-}
-#sideways {
-	-webkit-transform: rotate(90deg);
-	overflow: hidden;
 }
 #upsideDown {
 	-webkit-transform: rotate(180deg);
