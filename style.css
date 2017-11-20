@@ -8,9 +8,9 @@ h1 {
     text-align: center;
 }
 p {
-    color: lightslategray;
+    color: dimgray;
     font-family: verdana;
-    font-size: 100%;
+    font-size: 150%;
     text-align: center;
 }
 .instrument .header {
@@ -37,7 +37,7 @@ img {
 	-webkit-transform: rotate(180deg);
 }
 .sixNotes {
-	color: dodgerblue;
+	color: teal;
     font-family: verdana;
     font-size: 500%;
     text-align: center;
@@ -48,7 +48,7 @@ img {
 	padding-bottom: 50px;
 }
 .fourNotes {
-	color: dodgerblue;
+	color: teal;
     font-family: verdana;
     font-size: 500%;
     text-align: center;
@@ -73,7 +73,7 @@ ul {
     margin-right: 525px;
     padding: 0;
     overflow: hidden;
-    background-color: dimgray;
+    background-color: teal;
 }
 li {
     float: left;
@@ -84,12 +84,12 @@ li a {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: dimgray;
-    color: ghostwhite;
+    background-color: teal;
+    color: white;
     font-family: veranda;
     font-size: 200%;
     text-decoration: none;
 }
 li a:hover {
-    background-color: gray;
+    background-color: cadetblue;
 }
