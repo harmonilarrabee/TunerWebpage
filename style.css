@@ -33,9 +33,6 @@ img {
 	display: block;
     margin: 0 auto;
 }
-#upsideDown {
-	-webkit-transform: rotate(180deg);
-}
 .sixNotes {
 	color: teal;
     font-family: verdana;
@@ -80,8 +77,8 @@ li a {
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 43px;
+    padding-right: 43px;
     background-color: teal;
     color: white;
     font-family: veranda;
